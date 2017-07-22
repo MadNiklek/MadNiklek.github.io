@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>UND3FIN3D</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="img/icon.ico">
+</head>
+
+<body scroll="no" style="background-color: black;">
+	<div id="particles-js"></div>
+	<!-- stats - count particles -->
+		<span class="js-count-particles"></span> 
+	</div><script src='https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js'> </script><script src='https://threejs.org/examples/js/libs/stats.min.js'></script><script src="js/index.js"></script>
+
+	<div id="roulette">
+
+	<div id="result1" class="">
+		<div id="side1" class="side1"></div>
+		<div id="side2" class="side2"></div>
+	</div>
+
+	<div id="result2" class="">
+		<div id="side3" class="side3"></div>
+		<div id="side4" class="side4"></div>
+	</div>
+ 
+	<div id="result3" class="">
+		<div id="side5" class="side5"></div>
+		<div id="side6" class="side6"></div>
+	</div>
+
+
+
+			<div id="balance" onclick="set_amount_valuex23()" title="Reload balance">Balance:</div>
+
+			<input type="text" id="amount" value="100" disabled>
+
+		
+
+
+		<div class="col-3">
+        	<input id="betka" class="effect-2"  type="text">
+            <span class="focus-border"></span>
+        </div>
+				
+
+
+
+			<div onclick="rollwhatRed()" id="red_bet" class="bet_button">
+				Red
+
+			</div>
+			
+
+			<div id="black_bet" onclick="rollwhatBlack()" class="bet_button">
+				Black
+			</div>
+	</div>
+
+	<div id="nav">
+		<div id="menu"> Menu </div>
+		<div id="fruit" onclick="change_poc()">  Rules </div>
+	</div>
+
+</body>
+</html>
